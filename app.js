@@ -38,7 +38,7 @@ function addMarker(coords){
     });
     Marker.addlistener('click', function(){
       infoWindow.open(map,marker);
-  }
+  });
 }
 }
 addMarker({coords:{lat:-.3031, lng:36.08},
